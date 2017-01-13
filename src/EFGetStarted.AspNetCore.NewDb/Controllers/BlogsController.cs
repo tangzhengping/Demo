@@ -12,6 +12,7 @@ namespace EFGetStarted.AspNetCore.NewDb.Controllers
     {
         private BloggingContext _context;
 
+        public int test = 1;
         public BlogsController(BloggingContext context)
         {
             _context = context;

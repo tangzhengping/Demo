@@ -12,6 +12,7 @@ namespace EFGetStarted.AspNetCore.NewDb.Models
             : base(options)
         { }
 
+        public int i { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
     }
